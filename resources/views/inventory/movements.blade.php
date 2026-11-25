@@ -45,7 +45,7 @@
                                     <p class="font-mono text-xs text-slate-400">{{ $m->product?->sku }}</p>
                                 </td>
                             @endunless
-                            <td><span class="badge {{ $m->style }}"><i class="fa-solid {{ $m->icon }} text-[10px]"></i>{{ $m->label }}</span></td>
+                            <td><span class="badge whitespace-nowrap {{ $m->style }}"><i class="fa-solid {{ $m->icon }} text-[10px]"></i>{{ $m->label }}</span></td>
                             <td @class(['text-right font-bold tabular-nums', 'text-emerald-600' => $m->change > 0, 'text-rose-600' => $m->change < 0, 'text-slate-400' => $m->change === 0])>
                                 {{ $m->change > 0 ? '+' : '' }}{{ number_format($m->change) }}
                             </td>

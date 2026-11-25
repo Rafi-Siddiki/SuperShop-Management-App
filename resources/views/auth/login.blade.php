@@ -34,8 +34,8 @@
         <x-primary-button class="w-full py-2.5">Sign in <i class="fa-solid fa-arrow-right"></i></x-primary-button>
     </form>
 
-    @if (app()->environment('local'))
-        {{-- Demo accounts created by the database seeder (local environment only). --}}
+    @if (app()->environment('local') || config('app.demo'))
+        {{-- Demo accounts created by the database seeder (local environment or APP_DEMO=true only). --}}
         <div class="mt-8 rounded-xl border border-dashed border-slate-300 bg-slate-50 p-4" x-data="{ busy: false }">
             <p class="text-xs font-bold uppercase tracking-wider text-slate-500"><i class="fa-solid fa-flask mr-1"></i> Demo accounts · password <span class="font-mono normal-case">password</span></p>
             <div class="mt-3 grid grid-cols-3 gap-2">

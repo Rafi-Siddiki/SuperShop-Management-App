@@ -16,6 +16,14 @@ return [
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
+    | Demo mode shows the seeded demo accounts on the login page (one-click
+    | sign-in). Always on in the local environment; never enable it on a
+    | real shop.
+    */
+
+    'demo' => (bool) env('APP_DEMO', false),
+
+    /*
     |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------

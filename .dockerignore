@@ -1,0 +1,44 @@
+# Version control and editors
+.git
+.github
+.idea
+.vscode
+.fleet
+.zed
+
+# Dependencies are installed inside the image
+node_modules
+vendor
+
+# Built inside the image / created at runtime
+public/build
+public/hot
+public/storage
+bootstrap/cache/*.php
+storage/app/.app_key
+storage/app/public/*
+storage/app/private/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/testing/*
+storage/framework/views/*
+storage/logs/*
+storage/pail
+
+# Secrets and local data — never bake these into an image
+.env
+.env.*
+!.env.example
+*.bak
+auth.json
+database/*.sqlite*
+
+# Not needed at runtime
+tests
+.phpunit.cache
+.phpunit.result.cache
+phpunit.xml
+docker-compose*.yml
+Dockerfile
+.dockerignore
+docs
