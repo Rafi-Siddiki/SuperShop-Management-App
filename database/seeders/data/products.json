@@ -1,0 +1,1045 @@
+[
+  {
+    "name": "Essence Mascara Lash Princess",
+    "category": "Beauty & Health",
+    "price": 1199,
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "image_url": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+  },
+  {
+    "name": "Eyeshadow Palette with Mirror",
+    "category": "Beauty & Health",
+    "price": 2399,
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "image_url": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+  },
+  {
+    "name": "Powder Canister",
+    "category": "Beauty & Health",
+    "price": 1799,
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "image_url": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+  },
+  {
+    "name": "Red Lipstick",
+    "category": "Beauty & Health",
+    "price": 1559,
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "image_url": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+  },
+  {
+    "name": "Red Nail Polish",
+    "category": "Beauty & Health",
+    "price": 1079,
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "image_url": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"
+  },
+  {
+    "name": "Calvin Klein CK One",
+    "category": "Beauty & Health",
+    "price": 5999,
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "image_url": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp"
+  },
+  {
+    "name": "Chanel Coco Noir Eau De",
+    "category": "Beauty & Health",
+    "price": 15599,
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp"
+  },
+  {
+    "name": "Dior J'adore",
+    "category": "Beauty & Health",
+    "price": 10799,
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "image_url": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp"
+  },
+  {
+    "name": "Dolce Shine Eau de",
+    "category": "Beauty & Health",
+    "price": 8399,
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "image_url": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp"
+  },
+  {
+    "name": "Gucci Bloom Eau de",
+    "category": "Beauty & Health",
+    "price": 9599,
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "image_url": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp"
+  },
+  {
+    "name": "Annibale Colombo Bed",
+    "category": "Home & Kitchen",
+    "price": 227999,
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "image_url": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp"
+  },
+  {
+    "name": "Annibale Colombo Sofa",
+    "category": "Home & Kitchen",
+    "price": 299999,
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "image_url": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp"
+  },
+  {
+    "name": "Bedside Table African Cherry",
+    "category": "Home & Kitchen",
+    "price": 35999,
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "image_url": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp"
+  },
+  {
+    "name": "Knoll Saarinen Executive Conference Chair",
+    "category": "Home & Kitchen",
+    "price": 59999,
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "image_url": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp"
+  },
+  {
+    "name": "Wooden Bathroom Sink With Mirror",
+    "category": "Home & Kitchen",
+    "price": 95999,
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "image_url": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp"
+  },
+  {
+    "name": "Apple",
+    "category": "Food",
+    "price": 239,
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"
+  },
+  {
+    "name": "Beef Steak",
+    "category": "Food",
+    "price": 1559,
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"
+  },
+  {
+    "name": "Cat Food",
+    "category": "Food",
+    "price": 1079,
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp"
+  },
+  {
+    "name": "Chicken Meat",
+    "category": "Food",
+    "price": 1199,
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp"
+  },
+  {
+    "name": "Cooking Oil",
+    "category": "Food",
+    "price": 599,
+    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
+  },
+  {
+    "name": "Cucumber",
+    "category": "Food",
+    "price": 179,
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
+  },
+  {
+    "name": "Dog Food",
+    "category": "Food",
+    "price": 1319,
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"
+  },
+  {
+    "name": "Eggs",
+    "category": "Food",
+    "price": 359,
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"
+  },
+  {
+    "name": "Fish Steak",
+    "category": "Food",
+    "price": 1799,
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"
+  },
+  {
+    "name": "Green Bell Pepper",
+    "category": "Food",
+    "price": 159,
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"
+  },
+  {
+    "name": "Green Chili Pepper",
+    "category": "Food",
+    "price": 119,
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"
+  },
+  {
+    "name": "Honey Jar",
+    "category": "Food",
+    "price": 839,
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"
+  },
+  {
+    "name": "Ice Cream",
+    "category": "Food",
+    "price": 659,
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp"
+  },
+  {
+    "name": "Juice",
+    "category": "Food",
+    "price": 479,
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
+  },
+  {
+    "name": "Kiwi",
+    "category": "Food",
+    "price": 299,
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
+  },
+  {
+    "name": "Lemon",
+    "category": "Food",
+    "price": 95,
+    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/lemon/1.webp"
+  },
+  {
+    "name": "Milk",
+    "category": "Food",
+    "price": 419,
+    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp"
+  },
+  {
+    "name": "Mulberry",
+    "category": "Food",
+    "price": 599,
+    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/mulberry/1.webp"
+  },
+  {
+    "name": "Nescafe Coffee",
+    "category": "Food",
+    "price": 959,
+    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/1.webp"
+  },
+  {
+    "name": "Potatoes",
+    "category": "Food",
+    "price": 279,
+    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp"
+  },
+  {
+    "name": "Protein Powder",
+    "category": "Food",
+    "price": 2399,
+    "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/1.webp"
+  },
+  {
+    "name": "Red Onions",
+    "category": "Food",
+    "price": 239,
+    "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/red-onions/1.webp"
+  },
+  {
+    "name": "Rice",
+    "category": "Food",
+    "price": 719,
+    "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp"
+  },
+  {
+    "name": "Soft Drinks",
+    "category": "Food",
+    "price": 239,
+    "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp"
+  },
+  {
+    "name": "Strawberry",
+    "category": "Food",
+    "price": 479,
+    "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp"
+  },
+  {
+    "name": "Tissue Paper Box",
+    "category": "Food",
+    "price": 299,
+    "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/1.webp"
+  },
+  {
+    "name": "Water",
+    "category": "Food",
+    "price": 119,
+    "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+    "image_url": "https://cdn.dummyjson.com/product-images/groceries/water/1.webp"
+  },
+  {
+    "name": "Decoration Swing",
+    "category": "Home & Kitchen",
+    "price": 7199,
+    "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+    "image_url": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp"
+  },
+  {
+    "name": "Family Tree Photo Frame",
+    "category": "Home & Kitchen",
+    "price": 3599,
+    "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+    "image_url": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
+  },
+  {
+    "name": "House Showpiece Plant",
+    "category": "Home & Kitchen",
+    "price": 4799,
+    "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+    "image_url": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp"
+  },
+  {
+    "name": "Plant Pot",
+    "category": "Home & Kitchen",
+    "price": 1799,
+    "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+    "image_url": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp"
+  },
+  {
+    "name": "Table Lamp",
+    "category": "Home & Kitchen",
+    "price": 5999,
+    "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+    "image_url": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp"
+  },
+  {
+    "name": "Bamboo Spatula",
+    "category": "Home & Kitchen",
+    "price": 959,
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+  },
+  {
+    "name": "Black Aluminium Cup",
+    "category": "Home & Kitchen",
+    "price": 719,
+    "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp"
+  },
+  {
+    "name": "Black Whisk",
+    "category": "Home & Kitchen",
+    "price": 1199,
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+  },
+  {
+    "name": "Boxed Blender",
+    "category": "Home & Kitchen",
+    "price": 4799,
+    "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp"
+  },
+  {
+    "name": "Carbon Steel Wok",
+    "category": "Home & Kitchen",
+    "price": 3599,
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+  },
+  {
+    "name": "Chopping Board",
+    "category": "Home & Kitchen",
+    "price": 1559,
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+  },
+  {
+    "name": "Citrus Squeezer Yellow",
+    "category": "Home & Kitchen",
+    "price": 1079,
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp"
+  },
+  {
+    "name": "Egg Slicer",
+    "category": "Home & Kitchen",
+    "price": 839,
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp"
+  },
+  {
+    "name": "Electric Stove",
+    "category": "Home & Kitchen",
+    "price": 5999,
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp"
+  },
+  {
+    "name": "Fine Mesh Strainer",
+    "category": "Home & Kitchen",
+    "price": 1199,
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
+  },
+  {
+    "name": "Fork",
+    "category": "Home & Kitchen",
+    "price": 479,
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
+  },
+  {
+    "name": "Glass",
+    "category": "Home & Kitchen",
+    "price": 599,
+    "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
+  },
+  {
+    "name": "Grater Black",
+    "category": "Home & Kitchen",
+    "price": 1319,
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp"
+  },
+  {
+    "name": "Hand Blender",
+    "category": "Home & Kitchen",
+    "price": 4199,
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+  },
+  {
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "category": "Electronics",
+    "price": 239999,
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp"
+  },
+  {
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "category": "Electronics",
+    "price": 215999,
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp"
+  },
+  {
+    "name": "Huawei Matebook X Pro",
+    "category": "Electronics",
+    "price": 167999,
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp"
+  },
+  {
+    "name": "Lenovo Yoga 920",
+    "category": "Electronics",
+    "price": 131999,
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp"
+  },
+  {
+    "name": "New DELL XPS 13 9300 Laptop",
+    "category": "Electronics",
+    "price": 179999,
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "image_url": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp"
+  },
+  {
+    "name": "Blue & Black Check Shirt",
+    "category": "Clothing",
+    "price": 3599,
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp"
+  },
+  {
+    "name": "Gigabyte Aorus Men Tshirt",
+    "category": "Clothing",
+    "price": 2999,
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp"
+  },
+  {
+    "name": "Man Plaid Shirt",
+    "category": "Clothing",
+    "price": 4199,
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp"
+  },
+  {
+    "name": "Man Short Sleeve Shirt",
+    "category": "Clothing",
+    "price": 2399,
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp"
+  },
+  {
+    "name": "Nike Air Jordan 1 Red And Black",
+    "category": "Clothing",
+    "price": 17999,
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp"
+  },
+  {
+    "name": "Nike Baseball Cleats",
+    "category": "Clothing",
+    "price": 9599,
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp"
+  },
+  {
+    "name": "Puma Future Rider Trainers",
+    "category": "Clothing",
+    "price": 10799,
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp"
+  },
+  {
+    "name": "Sports Sneakers Off White & Red",
+    "category": "Clothing",
+    "price": 14399,
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp"
+  },
+  {
+    "name": "Brown Leather Belt Watch",
+    "category": "Others",
+    "price": 10799,
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp"
+  },
+  {
+    "name": "Longines Master Collection",
+    "category": "Others",
+    "price": 179999,
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp"
+  },
+  {
+    "name": "Amazon Echo Plus",
+    "category": "Electronics",
+    "price": 11999,
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+  },
+  {
+    "name": "Apple Airpods",
+    "category": "Electronics",
+    "price": 15599,
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp"
+  },
+  {
+    "name": "Apple AirPods Max Silver",
+    "category": "Electronics",
+    "price": 65999,
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+  },
+  {
+    "name": "Apple Airpower Wireless Charger",
+    "category": "Electronics",
+    "price": 9599,
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+  },
+  {
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "category": "Electronics",
+    "price": 11999,
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-homepod-mini-cosmic-grey/1.webp"
+  },
+  {
+    "name": "Apple iPhone Charger",
+    "category": "Electronics",
+    "price": 2399,
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-iphone-charger/1.webp"
+  },
+  {
+    "name": "Apple MagSafe Battery Pack",
+    "category": "Electronics",
+    "price": 11999,
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-magsafe-battery-pack/1.webp"
+  },
+  {
+    "name": "Apple Watch Series 4 Gold",
+    "category": "Electronics",
+    "price": 41999,
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "image_url": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-watch-series-4-gold/1.webp"
+  },
+  {
+    "name": "Attitude Super Leaves Hand Soap",
+    "category": "Beauty & Health",
+    "price": 1079,
+    "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+    "image_url": "https://cdn.dummyjson.com/product-images/skin-care/attitude-super-leaves-hand-soap/1.webp"
+  },
+  {
+    "name": "Olay Ultra Moisture Shea Butter Body Wash",
+    "category": "Beauty & Health",
+    "price": 1559,
+    "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+    "image_url": "https://cdn.dummyjson.com/product-images/skin-care/olay-ultra-moisture-shea-butter-body-wash/1.webp"
+  },
+  {
+    "name": "Vaseline Men Body and Face Lotion",
+    "category": "Beauty & Health",
+    "price": 1199,
+    "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+    "image_url": "https://cdn.dummyjson.com/product-images/skin-care/vaseline-men-body-and-face-lotion/1.webp"
+  },
+  {
+    "name": "iPhone 5s",
+    "category": "Electronics",
+    "price": 23999,
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp"
+  },
+  {
+    "name": "iPhone 6",
+    "category": "Electronics",
+    "price": 35999,
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp"
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "category": "Electronics",
+    "price": 131999,
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/1.webp"
+  },
+  {
+    "name": "iPhone X",
+    "category": "Electronics",
+    "price": 107999,
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/1.webp"
+  },
+  {
+    "name": "Oppo A57",
+    "category": "Electronics",
+    "price": 29999,
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/1.webp"
+  },
+  {
+    "name": "Oppo F19 Pro Plus",
+    "category": "Electronics",
+    "price": 47999,
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/1.webp"
+  },
+  {
+    "name": "Oppo K1",
+    "category": "Electronics",
+    "price": 35999,
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/1.webp"
+  },
+  {
+    "name": "Realme C35",
+    "category": "Electronics",
+    "price": 17999,
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/1.webp"
+  },
+  {
+    "name": "Realme X",
+    "category": "Electronics",
+    "price": 35999,
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/1.webp"
+  },
+  {
+    "name": "Realme XT",
+    "category": "Electronics",
+    "price": 41999,
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "image_url": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/1.webp"
+  },
+  {
+    "name": "American Football",
+    "category": "Sports",
+    "price": 2399,
+    "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
+  },
+  {
+    "name": "Baseball Ball",
+    "category": "Sports",
+    "price": 1079,
+    "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/1.webp"
+  },
+  {
+    "name": "Baseball Glove",
+    "category": "Sports",
+    "price": 2999,
+    "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/1.webp"
+  },
+  {
+    "name": "Basketball",
+    "category": "Sports",
+    "price": 1799,
+    "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/1.webp"
+  },
+  {
+    "name": "Basketball Rim",
+    "category": "Sports",
+    "price": 4799,
+    "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/basketball-rim/1.webp"
+  },
+  {
+    "name": "Cricket Ball",
+    "category": "Sports",
+    "price": 1559,
+    "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-ball/1.webp"
+  },
+  {
+    "name": "Cricket Bat",
+    "category": "Sports",
+    "price": 3599,
+    "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-bat/1.webp"
+  },
+  {
+    "name": "Cricket Helmet",
+    "category": "Sports",
+    "price": 5399,
+    "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-helmet/1.webp"
+  },
+  {
+    "name": "Cricket Wicket",
+    "category": "Sports",
+    "price": 3599,
+    "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/cricket-wicket/1.webp"
+  },
+  {
+    "name": "Feather Shuttlecock",
+    "category": "Sports",
+    "price": 719,
+    "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/feather-shuttlecock/1.webp"
+  },
+  {
+    "name": "Football",
+    "category": "Sports",
+    "price": 2159,
+    "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/football/1.webp"
+  },
+  {
+    "name": "Golf Ball",
+    "category": "Sports",
+    "price": 1199,
+    "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sports-accessories/golf-ball/1.webp"
+  },
+  {
+    "name": "Black Sun Glasses",
+    "category": "Others",
+    "price": 3599,
+    "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sunglasses/black-sun-glasses/1.webp"
+  },
+  {
+    "name": "Classic Sun Glasses",
+    "category": "Others",
+    "price": 2999,
+    "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sunglasses/classic-sun-glasses/1.webp"
+  },
+  {
+    "name": "Green and Black Glasses",
+    "category": "Others",
+    "price": 4199,
+    "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+    "image_url": "https://cdn.dummyjson.com/product-images/sunglasses/green-and-black-glasses/1.webp"
+  },
+  {
+    "name": "iPad Mini 2021 Starlight",
+    "category": "Electronics",
+    "price": 59999,
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/ipad-mini-2021-starlight/1.webp"
+  },
+  {
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "category": "Electronics",
+    "price": 71999,
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-s8-plus-grey/1.webp"
+  },
+  {
+    "name": "Samsung Galaxy Tab White",
+    "category": "Electronics",
+    "price": 41999,
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tablets/samsung-galaxy-tab-white/1.webp"
+  },
+  {
+    "name": "Blue Frock",
+    "category": "Clothing",
+    "price": 3599,
+    "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tops/blue-frock/1.webp"
+  },
+  {
+    "name": "Girl Summer Dress",
+    "category": "Clothing",
+    "price": 2399,
+    "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tops/girl-summer-dress/1.webp"
+  },
+  {
+    "name": "Gray Dress",
+    "category": "Clothing",
+    "price": 4199,
+    "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tops/gray-dress/1.webp"
+  },
+  {
+    "name": "Short Frock",
+    "category": "Clothing",
+    "price": 2999,
+    "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/tops/short-frock/1.webp"
+  },
+  {
+    "name": "Blue Women's Handbag",
+    "category": "Others",
+    "price": 5999,
+    "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-bags/blue-women's-handbag/1.webp"
+  },
+  {
+    "name": "Heshe Women's Leather Bag",
+    "category": "Others",
+    "price": 15599,
+    "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-bags/heshe-women's-leather-bag/1.webp"
+  },
+  {
+    "name": "Prada Women Bag",
+    "category": "Others",
+    "price": 71999,
+    "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-bags/prada-women-bag/1.webp"
+  },
+  {
+    "name": "Black Women's Gown",
+    "category": "Clothing",
+    "price": 15599,
+    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-dresses/black-women's-gown/1.webp"
+  },
+  {
+    "name": "Corset Leather With Skirt",
+    "category": "Clothing",
+    "price": 10799,
+    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-leather-with-skirt/1.webp"
+  },
+  {
+    "name": "Corset With Black Skirt",
+    "category": "Clothing",
+    "price": 9599,
+    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-dresses/corset-with-black-skirt/1.webp"
+  },
+  {
+    "name": "Dress Pea",
+    "category": "Clothing",
+    "price": 5999,
+    "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-dresses/dress-pea/1.webp"
+  },
+  {
+    "name": "Green Crystal Earring",
+    "category": "Others",
+    "price": 3599,
+    "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-crystal-earring/1.webp"
+  },
+  {
+    "name": "Green Oval Earring",
+    "category": "Others",
+    "price": 2999,
+    "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-jewellery/green-oval-earring/1.webp"
+  },
+  {
+    "name": "Tropical Earring",
+    "category": "Others",
+    "price": 2399,
+    "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-jewellery/tropical-earring/1.webp"
+  },
+  {
+    "name": "Black & Brown Slipper",
+    "category": "Clothing",
+    "price": 2399,
+    "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-shoes/black-&-brown-slipper/1.webp"
+  },
+  {
+    "name": "Calvin Klein Heel Shoes",
+    "category": "Clothing",
+    "price": 9599,
+    "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-shoes/calvin-klein-heel-shoes/1.webp"
+  },
+  {
+    "name": "Golden Shoes Woman",
+    "category": "Clothing",
+    "price": 5999,
+    "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-shoes/golden-shoes-woman/1.webp"
+  },
+  {
+    "name": "Pampi Shoes",
+    "category": "Clothing",
+    "price": 3599,
+    "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-shoes/pampi-shoes/1.webp"
+  },
+  {
+    "name": "Watch Gold for Women",
+    "category": "Others",
+    "price": 95999,
+    "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/1.webp"
+  },
+  {
+    "name": "Women's Wrist Watch",
+    "category": "Others",
+    "price": 15599,
+    "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+    "image_url": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/1.webp"
+  },
+  {
+    "name": "Pride and Prejudice — Jane Austen",
+    "category": "Books",
+    "price": 450,
+    "description": "Austen's sparkling comedy of manners follows Elizabeth Bennet as she navigates pride, prejudice and the proud Mr Darcy. Penguin Classics paperback.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg?default=false"
+  },
+  {
+    "name": "The Great Gatsby — F. Scott Fitzgerald",
+    "category": "Books",
+    "price": 420,
+    "description": "The definitive novel of the Jazz Age: Jay Gatsby's lavish parties and his doomed love for Daisy Buchanan. Paperback edition.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg?default=false"
+  },
+  {
+    "name": "To Kill a Mockingbird — Harper Lee",
+    "category": "Books",
+    "price": 550,
+    "description": "Pulitzer Prize-winning story of racial injustice and childhood innocence in 1930s Alabama, told through the eyes of Scout Finch.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg?default=false"
+  },
+  {
+    "name": "1984 — George Orwell",
+    "category": "Books",
+    "price": 480,
+    "description": "Orwell's chilling vision of a totalitarian future, Big Brother and the Thought Police. A timeless warning. Signet Classics paperback.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg?default=false"
+  },
+  {
+    "name": "The Catcher in the Rye — J.D. Salinger",
+    "category": "Books",
+    "price": 520,
+    "description": "Holden Caulfield's wry, restless journey through New York City — the classic novel of teenage alienation.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780316769488-L.jpg?default=false"
+  },
+  {
+    "name": "The Hobbit — J.R.R. Tolkien",
+    "category": "Books",
+    "price": 690,
+    "description": "Bilbo Baggins is swept into an epic quest to reclaim the lost Dwarf Kingdom of Erebor from the dragon Smaug.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg?default=false"
+  },
+  {
+    "name": "Harry Potter and the Sorcerer's Stone — J.K. Rowling",
+    "category": "Books",
+    "price": 790,
+    "description": "The boy who lived discovers he is a wizard and begins his first year at Hogwarts School of Witchcraft and Wizardry.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780439708180-L.jpg?default=false"
+  },
+  {
+    "name": "The Alchemist — Paulo Coelho",
+    "category": "Books",
+    "price": 450,
+    "description": "A shepherd boy's journey from Spain to the Egyptian desert in search of treasure — a fable about following your dreams.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg?default=false"
+  },
+  {
+    "name": "Atomic Habits — James Clear",
+    "category": "Books",
+    "price": 890,
+    "description": "An easy and proven way to build good habits and break bad ones, with practical strategies for tiny changes and remarkable results.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg?default=false"
+  },
+  {
+    "name": "The Da Vinci Code — Dan Brown",
+    "category": "Books",
+    "price": 650,
+    "description": "Symbologist Robert Langdon races across Paris and London to decode a mystery hidden in the works of Leonardo da Vinci.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780307474278-L.jpg?default=false"
+  },
+  {
+    "name": "Crime and Punishment — Fyodor Dostoevsky",
+    "category": "Books",
+    "price": 590,
+    "description": "Raskolnikov commits a murder he believes is justified, and is consumed by guilt in Dostoevsky's psychological masterpiece.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780140449136-L.jpg?default=false"
+  },
+  {
+    "name": "The Handmaid's Tale — Margaret Atwood",
+    "category": "Books",
+    "price": 620,
+    "description": "In the Republic of Gilead, Offred serves as a Handmaid in Atwood's unforgettable dystopian classic.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780385490818-L.jpg?default=false"
+  },
+  {
+    "name": "How to Win Friends and Influence People — Dale Carnegie",
+    "category": "Books",
+    "price": 480,
+    "description": "The timeless bestseller on communication, persuasion and getting along with people, in business and in life.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780671027032-L.jpg?default=false"
+  },
+  {
+    "name": "Project Hail Mary — Andy Weir",
+    "category": "Books",
+    "price": 950,
+    "description": "A lone astronaut wakes with no memory on a desperate mission to save Earth — from the author of The Martian.",
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg?default=false"
+  }
+]

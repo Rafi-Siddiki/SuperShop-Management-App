@@ -1,138 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
+<x-panel-layout title="Dashboard" :subtitle="'Good ' . (now()->hour < 12 ? 'morning' : (now()->hour < 17 ? 'afternoon' : 'evening')) . ', ' . auth()->user()->name . '. Here is today\'s work queue.'">
+    <x-slot:actions>
+        <a href="{{ route('manage.orders.index', ['status' => 'pending', 'channel' => 'online']) }}" class="btn-secondary"><i class="fa-solid fa-play"></i> Process orders</a>
+        <a href="{{ route('pos.index') }}" class="btn-primary"><i class="fa-solid fa-cash-register"></i> Open till</a>
+    </x-slot:actions>
 
-        .navbar {
-            background-color: #1a202c;
-            color: #fff;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar h2 {
-            margin: 0;
-            font-size: 18px;
-        }
-
-        .navbar .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .navbar a,
-        .navbar .logout-form button {
-            color: white;
-            background-color: #4a5568;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 14px;
-            transition: background-color 0.3s;
-        }
-
-        .navbar a:hover,
-        .navbar .logout-form button:hover {
-            background-color: #2d3748;
-        }
-
-        .navbar .user-name {
-            color: #a0aec0;
-            font-size: 16px;
-        }
-
-        .container {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .container h1 {
-            font-size: 28px;
-            color: #2d3748;
-            margin-bottom: 20px;
-        }
-
-        .dashboard {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card i {
-            font-size: 40px;
-            color: #2d3748;
-        }
-
-        .card h3 {
-            margin: 15px 0;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="navbar">
-        <h2>Employee Dashboard</h2>
-        <div class="nav-links">
-            <span class="user-name">Welcome, {{ Auth::user()->name }}</span>
-            <a href="{{ route('profile.edit') }}"><i class="fas fa-user-edit"></i> Edit Profile</a>
-            <form method="POST" action="{{ route('logout') }}" class="logout-form">
-                @csrf
-                <button type="submit"><i class="fas fa-sign-out-alt"></i> Log Out</button>
-            </form>
-        </div>
+    <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <x-stat-card label="Waiting for confirmation" :value="$counts['pending'] ?? 0" icon="fa-hourglass-half" tone="amber" :href="route('manage.orders.index', ['status' => 'pending'])" />
+        <x-stat-card label="Being packed" :value="$counts['processing'] ?? 0" icon="fa-box-open" tone="sky" :href="route('manage.orders.index', ['status' => 'processing'])" />
+        <x-stat-card label="Out for delivery" :value="$counts['shipped'] ?? 0" icon="fa-truck-fast" tone="violet" :href="route('manage.orders.index', ['status' => 'shipped'])"
+                     :hint="$shippedToday . ' shipped today'" />
+        <x-stat-card label="My till sales today" :value="money($mySalesToday->total)" icon="fa-cash-register" tone="emerald"
+                     :hint="$mySalesToday->count . ' ' . Str::plural('sale', $mySalesToday->count)" :href="route('pos.index')" />
     </div>
 
-    <div class="container">
-        <h1>Welcome to the Employee Dashboard</h1>
-        <div class="dashboard">
-            <div class="card">
-                <i class="fas fa-box"></i>
-                <h3>Update Order Status</h3>
+    <div class="mt-6 grid gap-6 xl:grid-cols-3">
+        <div class="card overflow-hidden xl:col-span-2">
+            <div class="card-header">
+                <div>
+                    <h2 class="card-title">Work queue</h2>
+                    <p class="text-xs text-slate-500">Orders to confirm first, then orders to ship — oldest first</p>
+                </div>
+                <a href="{{ route('manage.orders.index') }}" class="btn-ghost btn-sm">All orders <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="card">
-                <i class="fas fa-shopping-cart"></i>
-                <h3>Cancel Order</h3>
-            </div>
-            <div class="card">
-                <i class="fas fa-eye"></i>
-                <h3>View Stock</h3>
+            <div class="overflow-x-auto">
+                <table class="table">
+                    <thead><tr><th>Order</th><th>Customer</th><th>Waiting</th><th>Status</th><th class="!text-right">Next step</th></tr></thead>
+                    <tbody class="divide-y divide-slate-100">
+                        @forelse ($queue as $order)
+                            <tr>
+                                <td><a href="{{ route('manage.orders.show', $order) }}" class="font-semibold hover:text-brand-600">{{ $order->number }}</a>
+                                    <p class="text-xs text-slate-500">{{ $order->items_count }} {{ Str::plural('item', $order->items_count) }} · {{ money($order->total_amount) }}</p></td>
+                                <td>{{ $order->customer_label }}</td>
+                                <td @class(['whitespace-nowrap', 'font-semibold text-rose-600' => $order->created_at->lt(now()->subDay())])>{{ $order->created_at->diffForHumans(null, true) }}</td>
+                                <td><x-status-badge :status="$order->status" /></td>
+                                <td class="text-right">
+                                    @php($next = $order->status === 'pending' ? 'processing' : 'shipped')
+                                    <form method="POST" action="{{ route('manage.orders.status', $order) }}">
+                                        @csrf @method('PATCH')
+                                        <input type="hidden" name="status" value="{{ $next }}">
+                                        <button class="btn-dark btn-sm whitespace-nowrap">
+                                            <i class="fa-solid {{ \App\Models\Order::STATUS_ICONS[$next] }}"></i> {{ $next === 'processing' ? 'Confirm' : 'Ship' }}
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        @empty
+                            <tr><td colspan="5"><x-empty-state icon="fa-mug-hot" title="All caught up!" message="There are no orders waiting right now." /></td></tr>
+                        @endforelse
+                    </tbody>
+                </table>
             </div>
         </div>
-    </div>
 
-</body>
-</html>
+        <div class="card overflow-hidden">
+            <div class="card-header">
+                <h2 class="card-title">Low stock alerts</h2>
+                <a href="{{ route('inventory.index', ['filter' => 'reorder']) }}" class="btn-ghost btn-sm">Stock <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <ul class="divide-y divide-slate-100">
+                @forelse ($lowStock as $product)
+                    <li class="flex items-center gap-3 px-5 py-2.5">
+                        <img src="{{ $product->image_url }}" alt="" class="h-9 w-9 rounded-lg bg-slate-50 object-contain p-0.5">
+                        <p class="min-w-0 flex-1 truncate text-sm">{{ $product->name }}</p>
+                        <span @class(['badge', 'bg-rose-50 text-rose-700 ring-rose-600/20' => $product->stock_quantity <= 0, 'bg-amber-50 text-amber-700 ring-amber-600/20' => $product->stock_quantity > 0])>
+                            {{ $product->stock_quantity <= 0 ? 'Out' : $product->stock_quantity . ' left' }}
+                        </span>
+                    </li>
+                @empty
+                    <li><x-empty-state icon="fa-circle-check" title="Stock levels look healthy" /></li>
+                @endforelse
+            </ul>
+            <p class="border-t border-slate-100 px-5 py-3 text-xs text-slate-500"><i class="fa-solid fa-circle-info mr-1"></i>Deliveries can be received on the Stock page or by scanning.</p>
+        </div>
+    </div>
+</x-panel-layout>

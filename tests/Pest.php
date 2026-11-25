@@ -41,7 +41,53 @@ expect()->extend('toBeOne', function () {
 |
 */
 
-function something()
+/** A sellable product with opening stock recorded in the inventory ledger. */
+function makeProduct(array $attributes = [], int $stock = 10): App\Models\Product
 {
-    // ..
+    $product = App\Models\Product::create(array_merge([
+        'name' => 'Test Product',
+        'description' => 'A product used in tests.',
+        'date' => now()->toDateString(),
+        'category' => 'Food',
+        'price' => 100,
+        'cost_price' => 70,
+        'reorder_level' => 5,
+    ], $attributes));
+
+    app(App\Services\InventoryService::class)->opening($product, $stock);
+
+    return $product->fresh('stock');
+}
+
+function customer(): App\Models\User
+{
+    return App\Models\User::factory()->create(['role' => 'customer']);
+}
+
+function staff(string $role = 'employee'): App\Models\User
+{
+    return App\Models\User::factory()->create(['role' => $role]);
+}
+
+function checkoutData(): array
+{
+    return ['phone' => '01711111111', 'shipping_address' => 'House 1, Road 1, Dhanmondi, Dhaka'];
+}
+
+function stockOf(App\Models\Product $product): int
+{
+    return (int) App\Models\Stock::where('product_id', $product->id)->value('quantity');
+}
+
+/** The ledger must always explain the stock level exactly. */
+function assertLedgerConsistent(App\Models\Product $product): void
+{
+    $movements = App\Models\StockMovement::where('product_id', $product->id)->orderBy('id')->get();
+    $balance = 0;
+    foreach ($movements as $m) {
+        $balance += $m->change;
+        expect($m->balance_after)->toBe($balance, "Ledger chain broken at movement #{$m->id}");
+        expect($balance)->toBeGreaterThanOrEqual(0);
+    }
+    expect($balance)->toBe(stockOf($product), 'Ledger sum differs from stock level');
 }

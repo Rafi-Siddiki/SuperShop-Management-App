@@ -1,226 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Dashboard</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #edf2f7;
-            color: #2d3748;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-
-        .navbar {
-            background-color: #1a202c;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .navbar h2 {
-            margin: 0;
-            font-size: 20px;
-        }
-
-        .navbar .nav-links {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .navbar a,
-        .navbar .logout-form button {
-            background-color: #4a5568;
-            color: #fff;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-
-        .navbar a:hover,
-        .navbar .logout-form button:hover {
-            background-color: #2d3748;
-        }
-
-        .navbar .logout-form {
-            margin: 0;
-            display: inline;
-        }
-
-        .navbar .user-name {
-            color: #a0aec0;
-            font-size: 16px;
-        }
-
-        .container {
-            flex: 1;
-            padding: 20px;
-            overflow-y: auto;
-            text-align: center;
-        }
-
-        .container h1 {
-            font-size: 28px;
-            color: #2d3748;
-            margin-bottom: 20px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section h2 {
-            margin-bottom: 20px;
-            font-size: 24px;
-            color: #2d3748;
-        }
-
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .product-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            text-align: center;
-            transition: transform 0.2s;
-            flex: 1 1 calc(33.333% - 20px);
-            margin: 10px;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .product-card img {
-            max-width: 100%;
-            border-radius: 8px;
-        }
-
-        .product-card h3 {
-            margin: 10px 0;
-            font-size: 18px;
-        }
-
-        .product-card p {
-            color: #666;
-        }
-
-        .product-card button {
-            background-color: #1a202c;
-            color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .product-card button:hover {
-            background-color: #2d3748;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="navbar">
-        <h2>Customer Dashboard</h2>
-        <div class="nav-links">
-            <span class="user-name">Welcome, {{ Auth::user()->name }}</span>
-            <a href="#"><i class="fas fa-truck"></i> Track Orders</a>
-            <a href="{{ route('profile.edit') }}"><i class="fas fa-user-circle"></i> Edit Profile</a>
-            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
-            <form method="POST" action="{{ route('logout') }}" class="logout-form">
-                @csrf
-                <button type="submit"><i class="fas fa-sign-out-alt"></i> Log Out</button>
-            </form>
-        </div>
-    </div>
-
-    <div class="container">
-        <h1>Welcome to the Customer Dashboard</h1>
-
-        <!-- Electronics Section -->
-        <div class="section">
-            <h2>Electronics</h2>
-            <div class="products">
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Smartphone">
-                    <h3>Smartphone</h3>
-                    <p>$699</p>
-                    <button>Add to Cart</button>
+<x-shop-layout :title="$category ?: ($search ? 'Search: ' . $search : 'Shop')">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {{-- Hero (only on the unfiltered first page) --}}
+        @if (! $search && ! $category && $products->onFirstPage())
+            <section class="relative mb-8 overflow-hidden rounded-3xl bg-gradient-to-br from-brand-600 via-brand-500 to-accent-500 px-6 py-10 text-white sm:px-10">
+                <div class="relative z-10 max-w-xl">
+                    <p class="text-sm font-semibold uppercase tracking-widest text-white/80">Hi {{ strtok(auth()->user()->name, ' ') }} 👋</p>
+                    <h1 class="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">Everything for your home, delivered fast.</h1>
+                    <p class="mt-3 text-white/85">Fresh groceries, the latest gadgets and everyday essentials — cash on delivery anywhere in Bangladesh.</p>
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <a href="#catalogue" class="btn bg-white text-brand-700 hover:bg-brand-50">Start shopping <i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="{{ route('orders.index') }}" class="btn bg-white/15 text-white ring-1 ring-white/30 hover:bg-white/25"><i class="fa-solid fa-truck"></i> Track my orders</a>
+                    </div>
                 </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Laptop">
-                    <h3>Laptop</h3>
-                    <p>$999</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Headphones">
-                    <h3>Headphones</h3>
-                    <p>$199</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-        </div>
+                <i class="fa-solid fa-basket-shopping pointer-events-none absolute -bottom-10 -right-6 text-[13rem] text-white/10 sm:right-10"></i>
+            </section>
+        @endif
 
-        <!-- Food Section -->
-        <div class="section">
-            <h2>Food</h2>
-            <div class="products">
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Pizza">
-                    <h3>Pizza</h3>
-                    <p>$15</p>
-                    <button>Add to Cart</button>
+        <div id="catalogue" class="flex flex-col gap-6 lg:flex-row">
+            {{-- Category sidebar --}}
+            <aside class="lg:w-60 lg:shrink-0">
+                <div class="card sticky top-24 p-3">
+                    <p class="px-2 pb-2 pt-1 text-xs font-bold uppercase tracking-widest text-slate-400">Categories</p>
+                    <nav class="flex gap-1 overflow-x-auto lg:flex-col">
+                        <a href="{{ route('customer.dashboard', array_filter(['q' => $search, 'sort' => $sort !== 'popular' ? $sort : null])) }}"
+                           @class(['flex shrink-0 items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition', 'bg-brand-50 text-brand-700' => ! $category, 'text-slate-600 hover:bg-slate-50' => $category])>
+                            <i class="fa-solid fa-border-all w-4 text-center"></i> All products
+                            <span class="ml-auto text-xs text-slate-400">{{ $categories->sum() }}</span>
+                        </a>
+                        @foreach ($categories as $name => $count)
+                            <a href="{{ route('customer.dashboard', array_filter(['category' => $name, 'q' => $search, 'sort' => $sort !== 'popular' ? $sort : null])) }}"
+                               @class(['flex shrink-0 items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition', 'bg-brand-50 text-brand-700' => $category === $name, 'text-slate-600 hover:bg-slate-50' => $category !== $name])>
+                                <i class="fa-solid {{ \App\Models\Product::CATEGORY_ICONS[$name] ?? 'fa-tag' }} w-4 text-center"></i> {{ $name }}
+                                <span class="ml-auto pl-2 text-xs text-slate-400">{{ $count }}</span>
+                            </a>
+                        @endforeach
+                    </nav>
                 </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Burger">
-                    <h3>Burger</h3>
-                    <p>$10</p>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-        </div>
+            </aside>
 
-        <!-- Clothing Section -->
-        <div class="section">
-            <h2>Clothing</h2>
-            <div class="products">
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="T-Shirt">
-                    <h3>T-Shirt</h3>
-                    <p>$25</p>
-                    <button>Add to Cart</button>
+            <div class="min-w-0 flex-1">
+                <div class="mb-5 flex flex-wrap items-center justify-between gap-3">
+                    <div>
+                        <h2 class="text-xl font-extrabold text-slate-900">
+                            @if ($search) Results for “{{ $search }}” @elseif ($category) {{ $category }} @else All products @endif
+                        </h2>
+                        <p class="text-sm text-slate-500">{{ number_format($products->total()) }} {{ Str::plural('product', $products->total()) }}</p>
+                    </div>
+                    <form method="GET" class="flex items-center gap-2">
+                        @if ($search)<input type="hidden" name="q" value="{{ $search }}">@endif
+                        @if ($category)<input type="hidden" name="category" value="{{ $category }}">@endif
+                        <label for="sort" class="text-sm text-slate-500">Sort</label>
+                        <select id="sort" name="sort" class="form-input w-auto py-1.5" onchange="this.form.submit()">
+                            @foreach ($sorts as $key => $label)
+                                <option value="{{ $key }}" @selected($sort === $key)>{{ $label }}</option>
+                            @endforeach
+                        </select>
+                    </form>
                 </div>
-                <div class="product-card">
-                    <img src="https://via.placeholder.com/150" alt="Jacket">
-                    <h3>Jacket</h3>
-                    <p>$60</p>
-                    <button>Add to Cart</button>
-                </div>
+
+                @if ($products->isEmpty())
+                    <div class="card">
+                        <x-empty-state icon="fa-magnifying-glass" title="No products found" message="Try another search term or browse all categories.">
+                            <a href="{{ route('customer.dashboard') }}" class="btn-primary">Browse everything</a>
+                        </x-empty-state>
+                    </div>
+                @else
+                    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4">
+                        @foreach ($products as $product)
+                            <x-product-card :product="$product" />
+                        @endforeach
+                    </div>
+                    <div class="mt-8">{{ $products->links() }}</div>
+                @endif
             </div>
         </div>
     </div>
-
-</body>
-</html>
+</x-shop-layout>

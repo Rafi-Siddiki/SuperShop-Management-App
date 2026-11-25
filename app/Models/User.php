@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -21,6 +20,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role', // Add role to the fillable attributes
     ];
 
     /**
@@ -44,5 +44,58 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+
+    public const ROLE_ADMIN = 'admin';
+    public const ROLE_EMPLOYEE = 'employee';
+    public const ROLE_CUSTOMER = 'customer';
+
+    public function cart()
+    {
+        return $this->hasOne(Cart::class)->where('status', 'active');
+    }
+
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
+
+    public function isAdmin(): bool
+    {
+        return $this->role === self::ROLE_ADMIN;
+    }
+
+    public function isEmployee(): bool
+    {
+        return $this->role === self::ROLE_EMPLOYEE;
+    }
+
+    public function isCustomer(): bool
+    {
+        return $this->role === self::ROLE_CUSTOMER;
+    }
+
+    public function isStaff(): bool
+    {
+        return $this->isAdmin() || $this->isEmployee();
+    }
+
+    /** Route name of this user's home dashboard. */
+    public function homeRoute(): string
+    {
+        return match ($this->role) {
+            self::ROLE_ADMIN => 'admin.dashboard',
+            self::ROLE_EMPLOYEE => 'employee.dashboard',
+            default => 'customer.dashboard',
+        };
+    }
+
+    public function getInitialsAttribute(): string
+    {
+        return collect(explode(' ', trim($this->name)))
+            ->filter()
+            ->take(2)
+            ->map(fn ($part) => mb_strtoupper(mb_substr($part, 0, 1)))
+            ->implode('');
     }
 }
